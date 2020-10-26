@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { IniciComponent } from './inici/inici.component';
 import { QuiSomComponent } from './qui-som/qui-som.component';
 import { HeaderComponent } from './header/header.component';
+import { CartasIniComponent } from './inici/cartas-ini/cartas-ini.component';
+import { ToTopBtnComponent } from './to-top-btn/to-top-btn.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IniciComponent,
     QuiSomComponent,
-    HeaderComponent
+    HeaderComponent,
+    CartasIniComponent,
+    ToTopBtnComponent
   ],
   imports: [
     BrowserModule,

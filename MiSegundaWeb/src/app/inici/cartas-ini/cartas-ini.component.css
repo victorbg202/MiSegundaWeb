@@ -1,0 +1,16 @@
+.card-img-top {
+  width: 50%;
+  position: relative;
+  margin: 40px 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card {
+  margin: 40px;
+}
+
+.card a {
+  background-color: #F9A826;
+  border: 2px solid #ff9d00;
+}
