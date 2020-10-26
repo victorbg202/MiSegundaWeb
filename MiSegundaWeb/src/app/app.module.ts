@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IniciComponent } from './inici/inici.component';
 import { QuiSomComponent } from './qui-som/qui-som.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IniciComponent,
-    QuiSomComponent
+    QuiSomComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
