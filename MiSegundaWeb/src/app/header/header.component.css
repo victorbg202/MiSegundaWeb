@@ -161,7 +161,9 @@
 }
 
 .header-blue .action-button:hover{
-  color:#F9A826;
+  border:2px solid #ffd000;
+  color:#ffffff;
+  font-weight: 500;
 }
 
 .header-blue .action-button.btn-lg{

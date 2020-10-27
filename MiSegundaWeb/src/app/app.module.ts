@@ -8,6 +8,7 @@ import { QuiSomComponent } from './qui-som/qui-som.component';
 import { HeaderComponent } from './header/header.component';
 import { CartasIniComponent } from './inici/cartas-ini/cartas-ini.component';
 import { ToTopBtnComponent } from './to-top-btn/to-top-btn.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ToTopBtnComponent } from './to-top-btn/to-top-btn.component';
     QuiSomComponent,
     HeaderComponent,
     CartasIniComponent,
-    ToTopBtnComponent
+    ToTopBtnComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,12 @@
+.blue {
+  background-color: #35abcf;
+}
+
+.blue a, .blue p {
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.footer-copyright {
+  background-color: #0066aa;
+}
