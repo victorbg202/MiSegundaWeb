@@ -1,10 +1,9 @@
 <div class="container">
-  <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="../../../assets/ufo.svg" alt="Card image cap">
+  <div class="card" style="width: 18rem;" *ngFor="let carta of cartas">
+    <img class="card-img-top" [src]="carta.imageURL" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
+      <h5 class="card-title">{{carta.titulo}}</h5>
+      <p class="card-text">{{carta.texto}}</p>
+    </div><a routerLink={{carta.ruta}} routerLinkActive="active" class="btn btn-primary">{{carta.bttn}}</a>
   </div>
 </div>

@@ -1,0 +1,9 @@
+.card-deck {
+  text-align: center;
+  margin: 30px 10%;
+}
+
+.card {
+  margin: 0px auto;
+  max-width: 300px;
+}

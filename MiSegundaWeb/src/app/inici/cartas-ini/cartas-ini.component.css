@@ -1,9 +1,14 @@
 .card-img-top {
   width: 50%;
+  min-height: 160px;
   position: relative;
   margin: 40px 0;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.card-body {
+  min-height: 150px;
 }
 
 .card {
@@ -11,6 +16,17 @@
 }
 
 .card a {
-  background-color: #F9A826;
-  border: 2px solid #ff9d00;
+  background-color: #35abcf;
+  border: 2px solid #35abcf;
+}
+
+.container{
+  width:100%;
+  display:flex;
+  justify-content: space-around;
+}
+.card{
+  max-height: 500px;
+  min-width: 200px;
+  float:left;
 }

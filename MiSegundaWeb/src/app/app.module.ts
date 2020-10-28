@@ -9,6 +9,8 @@ import { HeaderComponent } from './header/header.component';
 import { CartasIniComponent } from './inici/cartas-ini/cartas-ini.component';
 import { ToTopBtnComponent } from './to-top-btn/to-top-btn.component';
 import { FooterComponent } from './footer/footer.component';
+import { EventsComponent } from './events/events.component';
+import { CartaEventsComponent } from './events/carta-events/carta-events.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     CartasIniComponent,
     ToTopBtnComponent,
-    FooterComponent
+    FooterComponent,
+    EventsComponent,
+    CartaEventsComponent
   ],
   imports: [
     BrowserModule,

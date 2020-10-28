@@ -23,12 +23,15 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [ "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css" ],
-              "scripts": [ "node_modules/popper.js/dist/umd/popper.js",
-                "node_modules/jquery/jquery.js",
-                "node_modules/bootstrap/dist/js/bootstrap.bundle.js" ]
-
+            "styles": [
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ],
+            "scripts": [
+              "node_modules/popper.js/dist/umd/popper.js",
+              "node_modules/jquery/jquery.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -89,12 +92,15 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [ "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css" ],
-              "scripts": [ "node_modules/popper.js/dist/umd/popper.js",
-                "node_modules/jquery/jquery.js",
-                "node_modules/bootstrap/dist/js/bootstrap.bundle.js" ]
-
+            "styles": [
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ],
+            "scripts": [
+              "node_modules/popper.js/dist/umd/popper.js",
+              "node_modules/jquery/jquery.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+            ]
           }
         },
         "lint": {
@@ -123,6 +129,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "MiSegundaWeb"
+    }
+  },
+  "defaultProject": "MiSegundaWeb",
+  "cli": {
+    "analytics": "4bb72c09-5ec8-479e-b567-72eddfcbdb57"
+  }
 }
