@@ -4,6 +4,16 @@
 }
 
 .card {
-  margin: 0px auto;
+  padding: 15px;
+  margin: 40px auto;
   max-width: 300px;
+  min-width: 300px;
+}
+
+img {
+  max-height: 200px;
+}
+
+.card-texto {
+  max-height: 50px;
 }

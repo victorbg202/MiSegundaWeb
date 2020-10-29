@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventsComponent implements OnInit {
 
+  opcionEventos: string = 'all';
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  changeLogin(opcionEventos: string): void {
+    this.opcionEventos = opcionEventos;
   }
 
 }

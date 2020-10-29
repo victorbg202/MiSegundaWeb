@@ -1,11 +1,11 @@
 export class GrupEvents {
 
     constructor(
-      public titulo: string = 'Sin titulo',
-      public imageURL: string,
-      public texto: string,
-      public bttn: string,
-      public ruta?: string
+      public nomEvent: string = 'Sin titulo',
+      public llocEvent: string,
+      public imageURL: string = 'Imagen no disponible',
+      public texto: string = 'Sin texto',
+      public correu: string
     ) { }
 
 }

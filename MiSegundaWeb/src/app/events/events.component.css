@@ -4,6 +4,10 @@ h1 {
   color: #F9A826;
 }
 
+h2 {
+  text-align: center;
+}
+
 p {
   position: relative;
   left: 50%;
@@ -21,6 +25,23 @@ hr {
   color: #0066aa;
 }
 
-article {
+section:nth-child(1) {
   margin-bottom: 75px;
+}
+
+section:nth-child(3) {
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
+
+.card {
+  margin: 0 10% 10% 10%;
+}
+
+form {
+  text-align: left;
+}
+
+.form-check {
+ margin: 10px 0;
 }
