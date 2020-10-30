@@ -45,3 +45,7 @@ form {
 .form-check {
  margin: 10px 0;
 }
+
+li {
+  margin: 5px 10px;
+}
