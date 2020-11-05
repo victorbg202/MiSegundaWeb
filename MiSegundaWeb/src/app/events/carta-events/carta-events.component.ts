@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { GrupEvents } from '../../../models/events.model';
 
 @Component({
@@ -19,6 +19,7 @@ export class CartaEventsComponent implements OnInit {
     this.cartas.push(new GrupEvents('Event 1','Almenar' ,'assets/ufo.svg', 'Libero nam quae ipsa tempore perferendis recusandae, possimus accusantium placeat ullam labore expedita qui nulla nihil iure ratione consequuntur. Dolor dolorum, repellat nostrum iusto quidem deserunt nulla laudantium ipsum. A Vero, molestias reiciendis? Quasi illo qui, cupiditate hic blanditiis voluptas voluptate voluptatem aliquam eaque dolor asperiores','hola@hola.com'));
     this.cartas.push(new GrupEvents('Event 2','Alfarras' ,'../../../assets/quiSom.svg', 'Libero nam quae ipsa tempore perferendis recusandae, possimus accusantium placeat ullam labore expedita qui nulla nihil iure ratione consequuntur. Dolor dolorum, repellat nostrum iusto quidem deserunt nulla laudantium ipsum.   Vero, molestias reiciendis? Quasi illo qui, cupiditate hic blanditiis voluptas voluptate voluptatem aliquam eaque dolor asperiores, ','hola@hola.com'));
     this.cartas.push(new GrupEvents('Event 3','Alguaire' ,'../../../assets/ufo.svg', 'Libero nam quae ipsa tempore perferendis recusandae, possimus accusantium placeat ullam labore expedita qui nulla nihil iure ratione consequuntur. Dolor dolorum, repellat nostrum iusto quidem deserunt nulla laudantium ipsum. A Vero, molestias reiciendis? Quasi illo qui, cupiditate hic blanditiis voluptas voluptate voluptatem aliquam eaque dolor asperiores','hola@hola.com'));
+    //this.cartas.push(new GrupEvents(1,2,3,4,5));
   }
 
 }

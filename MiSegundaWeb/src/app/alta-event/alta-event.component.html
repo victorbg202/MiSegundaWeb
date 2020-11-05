@@ -1,0 +1,29 @@
+<h5 class="card-title">Afegeix un nou event: </h5>
+<form>
+  <div class="form-group">
+    <label>Nom event: </label>
+    <input #vNom type="text" class="form-control" id="exampleInputPassword1" placeholder="Event 4">
+  </div>
+  <!-- <div [ngSwitch]="mostrarInfo">
+    <div class="correcto" *ngSwitchCase="'DNI correcto'">DNI Correcto</div>
+    <div class="incorrecto" *ngSwitchCase="'DNI incorrecto'">DNI Incorrecto</div>
+  </div> -->
+  <div class="form-group">
+    <label>Lloc event: </label>
+    <input #vLloc type="text" class="form-control" id="exampleInputPassword1" placeholder="Lloc">
+  </div>
+  <div class="form-group">
+    <label>Email: </label>
+    <input #vEmail type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+    <!--  Missatge que ha d'apareixer en cas d'error    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+  </div>
+  <div class="form-group">
+    <label>Text: </label>
+    <textarea #vText type="text" class="form-control" id="exampleInputPassword1" placeholder="Hola"></textarea>
+  </div>
+  <div class="form-check">
+    <input #vAceptar type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Aceptar</label>
+  </div>
+  <input type="button" class="btn btn-primary" value="Publicar Evento">
+</form>

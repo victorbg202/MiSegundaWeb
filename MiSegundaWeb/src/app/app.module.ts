@@ -11,6 +11,10 @@ import { ToTopBtnComponent } from './to-top-btn/to-top-btn.component';
 import { FooterComponent } from './footer/footer.component';
 import { EventsComponent } from './events/events.component';
 import { CartaEventsComponent } from './events/carta-events/carta-events.component';
+import { AltaEventComponent } from './alta-event/alta-event.component';
+import { LlistaMembresComponent } from './qui-som/llista-membres/llista-membres.component';
+import { DadesMembresComponent } from './qui-som/dades-membres/dades-membres.component';
+import { ElementMembreComponent } from './qui-som/element-membre/element-membre.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { CartaEventsComponent } from './events/carta-events/carta-events.compone
     ToTopBtnComponent,
     FooterComponent,
     EventsComponent,
-    CartaEventsComponent
+    CartaEventsComponent,
+    AltaEventComponent,
+    LlistaMembresComponent,
+    DadesMembresComponent,
+    ElementMembreComponent
   ],
   imports: [
     BrowserModule,
