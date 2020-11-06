@@ -49,3 +49,21 @@ form {
 li {
   margin: 5px 10px;
 }
+
+/**/
+.card-deck {
+  text-align: center;
+  margin: 30px 10%;
+}
+
+.card-deck .card {
+  padding: 15px;
+  margin: 40px auto;
+  max-width: 300px;
+  min-width: 300px;
+}
+
+img {
+  max-height: 200px;
+}
+

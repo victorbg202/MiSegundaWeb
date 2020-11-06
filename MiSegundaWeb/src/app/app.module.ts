@@ -10,11 +10,11 @@ import { CartasIniComponent } from './inici/cartas-ini/cartas-ini.component';
 import { ToTopBtnComponent } from './to-top-btn/to-top-btn.component';
 import { FooterComponent } from './footer/footer.component';
 import { EventsComponent } from './events/events.component';
-import { CartaEventsComponent } from './events/carta-events/carta-events.component';
-import { AltaEventComponent } from './alta-event/alta-event.component';
 import { LlistaMembresComponent } from './qui-som/llista-membres/llista-membres.component';
 import { DadesMembresComponent } from './qui-som/dades-membres/dades-membres.component';
 import { ElementMembreComponent } from './qui-som/element-membre/element-membre.component';
+import { AltaEventComponent } from './events/alta-event/alta-event.component';
+import { ModificarEventComponent } from './events/modificar-event/modificar-event.component';
 
 @NgModule({
   declarations: [
@@ -26,11 +26,11 @@ import { ElementMembreComponent } from './qui-som/element-membre/element-membre.
     ToTopBtnComponent,
     FooterComponent,
     EventsComponent,
-    CartaEventsComponent,
-    AltaEventComponent,
     LlistaMembresComponent,
     DadesMembresComponent,
-    ElementMembreComponent
+    ElementMembreComponent,
+    AltaEventComponent,
+    ModificarEventComponent
   ],
   imports: [
     BrowserModule,

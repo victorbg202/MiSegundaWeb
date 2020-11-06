@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CartaEventsComponent } from './carta-events.component';
+import { ModificarEventComponent } from './modificar-event.component';
 
-describe('CartaEventsComponent', () => {
-  let component: CartaEventsComponent;
-  let fixture: ComponentFixture<CartaEventsComponent>;
+describe('ModificarEventComponent', () => {
+  let component: ModificarEventComponent;
+  let fixture: ComponentFixture<ModificarEventComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CartaEventsComponent ]
+      declarations: [ ModificarEventComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CartaEventsComponent);
+    fixture = TestBed.createComponent(ModificarEventComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
