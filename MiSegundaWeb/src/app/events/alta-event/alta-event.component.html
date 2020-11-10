@@ -29,10 +29,10 @@
     <textarea #vUrl type="text" class="form-control" id="exampleInputPassword1" placeholder="assets/membre_1.svg"></textarea>
   </div>
   <div class="form-check">
-    <input #vAceptar type="checkbox" class="form-check-input" id="Check">
+    <input type="checkbox" class="form-check-input" id="Check">
     <label class="form-check-label" for="exampleCheck1">Aceptar</label>
     <small id="emailHelp" class="form-text text-muted">{{errCheck}}</small>
   </div>
   <br><br>
-  <input type="button" class="btn btn-primary" value="Publicar Evento" (click)="enviarDatos(vNom.value, vLloc.value, vUrl.value, vText.value, vEmail.value, vAceptar.value)">
+  <input type="button" class="btn btn-primary" value="Publicar Evento" (click)="enviarDatos(vNom.value, vLloc.value, vUrl.value, vText.value, vEmail.value)">
 </form>

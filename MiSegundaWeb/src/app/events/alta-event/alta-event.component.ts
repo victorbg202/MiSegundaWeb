@@ -17,7 +17,7 @@ export class AltaEventComponent {
   mostrarInfo: string = "";
   errCheck?;
 
-  enviarDatos(nom, lloc, url, text, email, errCheck) {
+  enviarDatos(nom, lloc, url, text, email) {
     if(nom == ""){
       this.errNom = "Nom incorrecte introdueix un nom";
     }else {
@@ -43,9 +43,8 @@ export class AltaEventComponent {
       this.errText = "Text correcte";
     }
 
-    //.checked ERR!!
-    if (this.errCheck = document.getElementById("Check")) {
-      this.errCheck = ": D";
+    if (this.errCheck = document.getElementById("Check")/*.checked*/ && nom != "" &&  lloc!="" && email.match(this.errEmail)  && text.length > 2) {
+      this.errCheck = "";
       this.carta.push(new GrupEvents(nom, lloc, url , text, email));
     }else {
       this.errCheck = "Acepar condicions";
