@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="card" style="width: 18rem;" *ngFor="let carta of cartas">
+    <img class="card-img-top" [src]="carta.imageURL" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{carta.titulo}}</h5>
+      <p class="card-text">{{carta.texto}}</p>
+    </div><a routerLink={{carta.ruta}} routerLinkActive="active" class="btn btn-primary">{{carta.bttn}}</a>
+  </div>
+</div>

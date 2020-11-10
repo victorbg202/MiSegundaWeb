@@ -1,0 +1,56 @@
+<article>
+  <section>
+    <h1 class="titulo">Events</h1>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam earum repellat cumque nam accusamus enim ipsam rem ex sequi distinctio pariatur vel fugit, repellendus corrupti numquam natus voluptatibus illo expedita?Pariatur, sed. Molestiae.</p>
+  </section>
+  <section>
+    <div class="card-deck">
+      <div class="card" *ngFor="let carta of cartas">
+        <img class="card-img-top" [src]="carta.imageURL" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{carta.nomEvent}}</h5>
+          <p class="card-text">{{carta.texto}}</p>
+          <p class="card-text"><small class="text-muted">{{carta.correu}}</small></p>
+          <p class="card-text"><small class="text-muted">{{carta.llocEvent}}</small></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2 class="titulo">Opcions Events</h2>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam earum repellat cumque nam accusamus enim ipsam rem ex sequi distinctio pariatur vel fugit</p>
+    </section>
+</article>
+<div class="card text-center">
+  <div class="card-header">
+    <ul class="nav nav-pills card-header-pills">
+      <li class="nav-item">
+        <a class="nav-link active" (click)="changeLogin('afegeix')">Agregar evento</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" (click)="changeLogin('editar')">Editar evento</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" (click)="changeLogin('borrar')">Eliminar evento</a>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body" *ngIf="opcionEventos === 'afegeix'">
+    <app-alta-event [carta]="cartas"></app-alta-event>
+  </div>
+  <div class="card-body" *ngIf="opcionEventos === 'editar'">
+    <app-modificar-event [carta]="cartas"></app-modificar-event>
+  </div>
+  <div class="card-body" *ngIf="opcionEventos === 'borrar'">
+    <h5 class="card-title">Borrar event: </h5>
+    <form>
+      <div class="form-group">
+        <label>Nom event: </label>
+        <input #vBorrar type="text" class="form-control" id="exampleInputPassword1" placeholder="Event">
+      </div>
+      <button type="button" class="btn btn-danger" (click)="borrarEvent(vBorrar.value)">Eliminar evento</button>
+    </form>
+  </div>
+</div>

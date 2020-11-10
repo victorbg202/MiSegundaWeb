@@ -1,1 +1,10 @@
-<p>qui-som works!</p>
+<h2>Membres: </h2>
+<div class="card text-center">
+  <div class="card-header">
+    <app-llista-membres (informarEvent)="cambiarMembreSeleccionado($event)"></app-llista-membres>
+  </div>
+  <div class="card-body">
+    <h5>Info membre:</h5>
+    <app-dades-membres [membre]="membreSeleccionado"></app-dades-membres>
+  </div>
+</div>
