@@ -15,6 +15,7 @@ import { DadesMembresComponent } from './qui-som/dades-membres/dades-membres.com
 import { ElementMembreComponent } from './qui-som/element-membre/element-membre.component';
 import { AltaEventComponent } from './events/alta-event/alta-event.component';
 import { ModificarEventComponent } from './events/modificar-event/modificar-event.component';
+import { Practica4Component } from './practica4/practica4.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ModificarEventComponent } from './events/modificar-event/modificar-even
     DadesMembresComponent,
     ElementMembreComponent,
     AltaEventComponent,
-    ModificarEventComponent
+    ModificarEventComponent,
+    Practica4Component
   ],
   imports: [
     BrowserModule,
